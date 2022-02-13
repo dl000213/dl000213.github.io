@@ -8,7 +8,7 @@ document.addEventListener('visibilitychange', function () {
     }
     else {
         $('[rel="icon"]').attr('href', "https://i.loli.net/2020/12/20/BZhvzONd8lgoFAI.png");
-        document.title = '（*＾ワ＾*）❤你' + OriginTitle;
+        document.title = '（*＾ワ＾*）❤' + OriginTitle;
         titleTime = setTimeout(function () {
             document.title = OriginTitle;
         }, 2000);
