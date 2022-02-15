@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>JAVA三大特性之封装</title>
+      <link href="/2022/02/15/JAVA%E4%B8%89%E5%A4%A7%E7%89%B9%E6%80%A7%E4%B9%8B%E5%B0%81%E8%A3%85/"/>
+      <url>/2022/02/15/JAVA%E4%B8%89%E5%A4%A7%E7%89%B9%E6%80%A7%E4%B9%8B%E5%B0%81%E8%A3%85/</url>
+      
+        <content type="html"><![CDATA[<pre class="line-numbers language-java" data-language="java"><code class="language-java">封装 ： 就是把抽象出的数据（属性）和对数据的操作（方法）封装在一起，     数据被保护在内部，程序的其他部分只有通过被授权的操作（方法），     才能对数据进行操作。 好处： 隐藏实现细节，可以对数据进行验证，保证数据合理性。 实现步骤： <span class="token number">1.</span> 将属性进行私有化<span class="token keyword">private</span>（不能直接修改属性）          <span class="token number">2.</span> 提供一个公共的set（）方法，用于对属性判断并赋值             <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">setxxx</span><span class="token punctuation">(</span>类型 参数名<span class="token punctuation">)</span><span class="token punctuation">&#123;</span> <span class="token comment">//xxx表示某个属性</span>               <span class="token comment">// 加入数据验证的业务逻辑</span>                属性 <span class="token operator">=</span> 参数名<span class="token punctuation">;</span>             <span class="token punctuation">&#125;</span>           <span class="token number">3.</span> 提供一个公共的get（）方法，用于获取属性的值             <span class="token keyword">public</span> 数据类型  <span class="token function">getxxx</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">&#123;</span> <span class="token comment">// 权限判断</span>             <span class="token keyword">return</span> xxx<span class="token punctuation">;</span>             <span class="token punctuation">&#125;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><p><img src="/../%E5%9B%BE%E7%89%87/QQ%E5%9B%BE%E7%89%8720220215151847.png"></p><p><img src="/../%E5%9B%BE%E7%89%87/QQ%E5%9B%BE%E7%89%8720220215151816.png"></p><p><img src="/../%E5%9B%BE%E7%89%87/QQ%E5%9B%BE%E7%89%8720220215151833.png"></p><p><img src="/../%E5%9B%BE%E7%89%87/QQ%E5%9B%BE%E7%89%8720220215151842.png"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 笔记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 学习 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>访问修饰符学习笔记</title>
       <link href="/2022/02/15/%E8%AE%BF%E9%97%AE%E4%BF%AE%E9%A5%B0%E7%AC%A6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
       <url>/2022/02/15/%E8%AE%BF%E9%97%AE%E4%BF%AE%E9%A5%B0%E7%AC%A6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
