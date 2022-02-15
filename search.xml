@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>访问修饰符学习笔记</title>
+      <link href="/2022/02/15/%E8%AE%BF%E9%97%AE%E4%BF%AE%E9%A5%B0%E7%AC%A6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+      <url>/2022/02/15/%E8%AE%BF%E9%97%AE%E4%BF%AE%E9%A5%B0%E7%AC%A6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
+      
+        <content type="html"><![CDATA[<p>访问修饰符：java提供四种访问控制修饰符号，用于控制方法和属性的访问权限。<br>              1.<strong>公开级别</strong>：public修饰，对外公开<br>              2.<strong>受保护级别</strong>：用protected修饰，对于子类和同一个包中的类公开<br>              3**.默认级别**：没有修饰符号，向同一个包的类公开<br>              4.<strong>私有级别</strong>：用private修饰，只有类本身可以访问，不对外公开</p><pre class="line-numbers language-java" data-language="java"><code class="language-java">访问级别    访问修饰符    同类    同包   子类   不同包公开        <span class="token keyword">public</span>       √      √     √      √受保护     <span class="token keyword">protected</span>     √      √      √     ×默认        无           √      √      ×     ×私有        <span class="token keyword">private</span>      √      ×     ×      ×注意事项：<span class="token number">1.</span>修饰符可以用来修饰类中的 属性、成员方法和类 <span class="token number">2.</span>只有 默认的 和 <span class="token keyword">public</span> 才能修饰类，且遵循上述访问特点<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> 笔记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 学习 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>我的第一篇博客</title>
       <link href="/2022/02/08/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/"/>
       <url>/2022/02/08/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
